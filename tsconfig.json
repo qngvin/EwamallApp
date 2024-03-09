@@ -1,7 +1,7 @@
 {
   "extends": "./node_modules/@react-native/typescript-config/tsconfig.json",
   "compilerOptions": {
-    // Your compiler options here
+    "lib": ["dom", "es2015"],
   },
   "include": [
     "src/**/*.ts",

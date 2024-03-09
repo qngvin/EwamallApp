@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		60755F66D6FFE39F582C7EE6 /* libPods-EwamallApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9586EF66F3811C78FCB81A8F /* libPods-EwamallApp.a */; };
+		4B7E9D0AE7087D1884D5EF3A /* libPods-EwamallApp-EwamallAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5326EBBE28CDFD43B8A9051 /* libPods-EwamallApp-EwamallAppTests.a */; };
+		5D154BB818BAB442969C2BE8 /* libPods-EwamallApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0FB32BF3389522D3175920 /* libPods-EwamallApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		B79A8888C31D1B14EF43C6D5 /* libPods-EwamallApp-EwamallAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E89B423D9A952E7F63CF88 /* libPods-EwamallApp-EwamallAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +36,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EwamallApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EwamallApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EwamallApp/main.m; sourceTree = "<group>"; };
-		61E89B423D9A952E7F63CF88 /* libPods-EwamallApp-EwamallAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EwamallApp-EwamallAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AD67DAFB2E4353AF51F505B /* Pods-EwamallApp-EwamallAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EwamallApp-EwamallAppTests.debug.xcconfig"; path = "Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		528BF2A22E8499659613941E /* Pods-EwamallApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EwamallApp.debug.xcconfig"; path = "Target Support Files/Pods-EwamallApp/Pods-EwamallApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7A7A358BA36B6FDC5A07FC2C /* Pods-EwamallApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EwamallApp.release.xcconfig"; path = "Target Support Files/Pods-EwamallApp/Pods-EwamallApp.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = EwamallApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9586EF66F3811C78FCB81A8F /* libPods-EwamallApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EwamallApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF5E22CCD62614A19FEF03AF /* Pods-EwamallApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EwamallApp.release.xcconfig"; path = "Target Support Files/Pods-EwamallApp/Pods-EwamallApp.release.xcconfig"; sourceTree = "<group>"; };
-		BD44F1B72647FA698D2AA924 /* Pods-EwamallApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EwamallApp.debug.xcconfig"; path = "Target Support Files/Pods-EwamallApp/Pods-EwamallApp.debug.xcconfig"; sourceTree = "<group>"; };
-		D5C78645BD61950E19556FE9 /* Pods-EwamallApp-EwamallAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EwamallApp-EwamallAppTests.debug.xcconfig"; path = "Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5326EBBE28CDFD43B8A9051 /* libPods-EwamallApp-EwamallAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EwamallApp-EwamallAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0FB32BF3389522D3175920 /* libPods-EwamallApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EwamallApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F4CA7C0CBD97F93D787AB143 /* Pods-EwamallApp-EwamallAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EwamallApp-EwamallAppTests.release.xcconfig"; path = "Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE907C8253C54EA68B294896 /* Pods-EwamallApp-EwamallAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EwamallApp-EwamallAppTests.release.xcconfig"; path = "Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B79A8888C31D1B14EF43C6D5 /* libPods-EwamallApp-EwamallAppTests.a in Frameworks */,
+				4B7E9D0AE7087D1884D5EF3A /* libPods-EwamallApp-EwamallAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60755F66D6FFE39F582C7EE6 /* libPods-EwamallApp.a in Frameworks */,
+				5D154BB818BAB442969C2BE8 /* libPods-EwamallApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				9586EF66F3811C78FCB81A8F /* libPods-EwamallApp.a */,
-				61E89B423D9A952E7F63CF88 /* libPods-EwamallApp-EwamallAppTests.a */,
+				CC0FB32BF3389522D3175920 /* libPods-EwamallApp.a */,
+				A5326EBBE28CDFD43B8A9051 /* libPods-EwamallApp-EwamallAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,10 +140,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BD44F1B72647FA698D2AA924 /* Pods-EwamallApp.debug.xcconfig */,
-				AF5E22CCD62614A19FEF03AF /* Pods-EwamallApp.release.xcconfig */,
-				D5C78645BD61950E19556FE9 /* Pods-EwamallApp-EwamallAppTests.debug.xcconfig */,
-				F4CA7C0CBD97F93D787AB143 /* Pods-EwamallApp-EwamallAppTests.release.xcconfig */,
+				528BF2A22E8499659613941E /* Pods-EwamallApp.debug.xcconfig */,
+				7A7A358BA36B6FDC5A07FC2C /* Pods-EwamallApp.release.xcconfig */,
+				4AD67DAFB2E4353AF51F505B /* Pods-EwamallApp-EwamallAppTests.debug.xcconfig */,
+				EE907C8253C54EA68B294896 /* Pods-EwamallApp-EwamallAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EwamallAppTests" */;
 			buildPhases = (
-				0D744B192A352711683B0B3E /* [CP] Check Pods Manifest.lock */,
+				8618291B53D8684B61F96CCD /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				9C934C5365AAAC37F6CB3660 /* [CP] Embed Pods Frameworks */,
-				3B834244D4123BC973C1D44B /* [CP] Copy Pods Resources */,
+				30C9835C0C514BA24A16207B /* [CP] Embed Pods Frameworks */,
+				CBD9ADA209816A8FB28FD05F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,13 +176,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EwamallApp" */;
 			buildPhases = (
-				8A2434FDFEABB08FACABA61E /* [CP] Check Pods Manifest.lock */,
+				32ABEBEC0F4C9482945F418B /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				D20A2CA7394C107404D09CFE /* [CP] Embed Pods Frameworks */,
-				FA6E5C2F015B11A4B4E9C3F5 /* [CP] Copy Pods Resources */,
+				9AA35D29FA068CE3B71B1B26 /* [CP] Embed Pods Frameworks */,
+				9FAF46991D512A92EE5F74BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,46 +265,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		0D744B192A352711683B0B3E /* [CP] Check Pods Manifest.lock */ = {
+		30C9835C0C514BA24A16207B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EwamallApp-EwamallAppTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3B834244D4123BC973C1D44B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8A2434FDFEABB08FACABA61E /* [CP] Check Pods Manifest.lock */ = {
+		32ABEBEC0F4C9482945F418B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,24 +304,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9C934C5365AAAC37F6CB3660 /* [CP] Embed Pods Frameworks */ = {
+		8618291B53D8684B61F96CCD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EwamallApp-EwamallAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D20A2CA7394C107404D09CFE /* [CP] Embed Pods Frameworks */ = {
+		9AA35D29FA068CE3B71B1B26 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,7 +343,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EwamallApp/Pods-EwamallApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FA6E5C2F015B11A4B4E9C3F5 /* [CP] Copy Pods Resources */ = {
+		9FAF46991D512A92EE5F74BB /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,6 +358,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EwamallApp/Pods-EwamallApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBD9ADA209816A8FB28FD05F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -410,7 +410,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D5C78645BD61950E19556FE9 /* Pods-EwamallApp-EwamallAppTests.debug.xcconfig */;
+			baseConfigurationReference = 4AD67DAFB2E4353AF51F505B /* Pods-EwamallApp-EwamallAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -437,7 +437,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4CA7C0CBD97F93D787AB143 /* Pods-EwamallApp-EwamallAppTests.release.xcconfig */;
+			baseConfigurationReference = EE907C8253C54EA68B294896 /* Pods-EwamallApp-EwamallAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -461,7 +461,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD44F1B72647FA698D2AA924 /* Pods-EwamallApp.debug.xcconfig */;
+			baseConfigurationReference = 528BF2A22E8499659613941E /* Pods-EwamallApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -488,7 +488,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF5E22CCD62614A19FEF03AF /* Pods-EwamallApp.release.xcconfig */;
+			baseConfigurationReference = 7A7A358BA36B6FDC5A07FC2C /* Pods-EwamallApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
