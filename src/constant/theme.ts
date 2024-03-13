@@ -8,7 +8,9 @@ const COLORS = {
   yellow: '#FFC436',
   black: '#000000',
   gray: 'gray',
+  gray_1: '#9D9D9D',
   yellowMain: '#E9BB45',
+  transparence: 'rgba(233, 187, 69, 0)',
 };
 const SIZES = {
   small: 12,
@@ -20,26 +22,18 @@ const SIZES = {
   height,
 };
 const FONTS = {
-  // small: {
-  //   fontFamily: '',
-  //   fontSize: SIZES.small,
-  //   fontWeight: '400',
-  // },
-  // medium: {
-  //   fontFamily: '',
-  //   fontSize: SIZES.medium,
-  //   fontWeight: '600',
-  // },
-  // large: {
-  //   fontFamily: '',
-  //   fontSize: SIZES.large,
-  //   fontWeight: '700',
-  // },
-  // xLarge: {
-  //   fontFamily: '',
-  //   fontSize: SIZES.xLarge,
-  //   fontWeight: '800',
-  // },
+  inter_bold: 'Inter-Bold',
+  inter_medium: 'Inter-Medium',
+  inter_regular: 'Inter-Regular',
+  inter_SemiBold: 'Inter-SemiBold',
+  roboto_light: 'Roboto-Light',
+  roboto_medium: 'Roboto-medium',
+  roboto_Regular: 'Roboto-Regular',
+  roboto_bold: 'Roboto-Bold',
+  poppins_Light: 'Poppins-Light',
+  poppins_Medium: 'Poppins-Medium',
+  poppins_Regular: 'Poppins-Regular',
+  poppins_SemiBold: 'Poppins-SemiBold',
 };
 
 export {COLORS, SIZES, FONTS};
