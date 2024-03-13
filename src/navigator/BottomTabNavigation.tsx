@@ -3,11 +3,13 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
 import Home from '../screens/home/Home';
 import {StyleSheet} from 'react-native';
-// import {COLORS} from '../constant/theme';
 // import {BlurView} from '@react-native-community/blur';
-// import Ionicons from 'react-native-vector-icons/Ionicons';
+
 import TabButton from './TabButton';
 import Profile from '../screens/profile/Profile';
+import Cart from '../screens/cart/Cart';
+import Category from '../screens/categories/Category';
+import Voucher from '../screens/voucher/Voucher';
 const Tab = createBottomTabNavigator();
 const tabBarStyle = StyleSheet.create({
   container: {
@@ -19,7 +21,6 @@ const tabBarStyle = StyleSheet.create({
     alignItems: 'center',
     marginHorizontal: 20,
   },
-  // icon: {marginTop: 10},
 });
 // function tabBarBackground() {
 //   return (
@@ -36,16 +37,37 @@ const tabBarStyle = StyleSheet.create({
 const tabs = [
   {
     id: 1,
+    title: 'cart',
+    screen: 'Cart',
+    icon: 'shopping-cart',
+    Component: Cart,
+  },
+  {
+    id: 1,
+    title: 'categories',
+    screen: 'Categories',
+    icon: 'grid',
+    Component: Category,
+  },
+  {
+    id: 3,
     title: 'home',
     screen: 'Home',
     icon: 'home',
     Component: Home,
   },
   {
-    id: 2,
+    id: 4,
+    title: 'voucher',
+    screen: 'Voucher',
+    icon: 'wallet-outline',
+    Component: Voucher,
+  },
+  {
+    id: 5,
     title: 'profile',
     screen: 'Profile',
-    icon: 'profile',
+    icon: 'user',
     Component: Profile,
   },
 ];
@@ -79,65 +101,6 @@ const BottomTabNavigation: React.FC = () => {
             }}
           />
         ))}
-        {/* <Tab.Screen
-          name="Cart"
-          component={Home}
-          options={{
-            tabBarShowLabel: false,
-          }}
-        />
-        <Tab.Screen
-          name="Categories"
-          component={Home}
-          options={{
-            tabBarIcon: ({focused}) => (
-              <Ionicons
-                name={focused ? 'location' : 'location-outline'}
-                size={26}
-                color={focused ? COLORS.yellowMain : COLORS.white}
-              />
-            ),
-          }}
-        />
-        <Tab.Screen
-          name="Home"
-          component={Home}
-          options={{
-            tabBarIcon: ({focused}) => (
-              <Ionicons
-                name={focused ? 'location' : 'location-outline'}
-                size={26}
-                color={focused ? COLORS.yellowMain : COLORS.white}
-              />
-            ),
-          }}
-        />
-        <Tab.Screen
-          name="Voucher"
-          component={Home}
-          options={{
-            tabBarIcon: ({focused}) => (
-              <Ionicons
-                name={focused ? 'location' : 'location-outline'}
-                size={26}
-                color={focused ? COLORS.yellowMain : COLORS.white}
-              />
-            ),
-          }}
-        />
-        <Tab.Screen
-          name="Profile"
-          component={Home}
-          options={{
-            tabBarIcon: ({focused}) => (
-              <Ionicons
-                name={focused ? 'location' : 'location-outline'}
-                size={26}
-                color={focused ? COLORS.yellowMain : COLORS.white}
-              />
-            ),
-          }}
-        /> */}
       </Tab.Navigator>
     </>
   );
