@@ -9,6 +9,7 @@ const COLORS = {
   black: '#000000',
   gray: 'gray',
   gray_1: '#9D9D9D',
+  gray_2: '#848484',
   yellowMain: '#E9BB45',
   transparence: 'rgba(233, 187, 69, 0)',
 };
@@ -28,7 +29,7 @@ const FONTS = {
   inter_SemiBold: 'Inter-SemiBold',
   roboto_light: 'Roboto-Light',
   roboto_medium: 'Roboto-medium',
-  roboto_Regular: 'Roboto-Regular',
+  roboto_regular: 'Roboto-Regular',
   roboto_bold: 'Roboto-Bold',
   poppins_Light: 'Poppins-Light',
   poppins_Medium: 'Poppins-Medium',
