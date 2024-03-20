@@ -6,6 +6,8 @@ interface TextProps {
   size: number;
   color: string;
   font: string;
+  align?: 'left' | 'right' | 'center';
+  numberOfLines?: number;
 }
 
 const ReusableText: React.FC<TextProps> = ({
@@ -13,14 +15,21 @@ const ReusableText: React.FC<TextProps> = ({
   size,
   color,
   font,
+  align,
+  numberOfLines,
 }: TextProps) => {
   const textStyle: TextStyle = {
     fontSize: size,
     color: color,
     fontFamily: font,
+    textAlign: align,
   };
 
-  return <Text style={textStyle}>{text}</Text>;
+  return (
+    <Text style={textStyle} numberOfLines={numberOfLines}>
+      {text}
+    </Text>
+  );
 };
 
 export default ReusableText;

@@ -1,12 +1,16 @@
 // HomeScreen.tsx
 import React from 'react';
-import {View} from 'react-native';
+import {ScrollView} from 'react-native';
 import HeaderHome from '../../components/home/HeaderHome';
+import CategoryHome from '../../components/home/CategoryHome';
+import FlashSaleHome from '../../components/home/FlashSaleHome';
 
 const Home: React.FC = () => (
-  <View>
+  <ScrollView>
     <HeaderHome />
-  </View>
+    <CategoryHome />
+    <FlashSaleHome />
+  </ScrollView>
 );
 
 export default Home;
