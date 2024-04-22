@@ -5,13 +5,16 @@ const COLORS = {
   white: '#ffffff',
   blue: '#00A9FF',
   red: '#FF1E1E',
+  red_price: '#FF3B3B',
   yellow: '#FFC436',
+  progressBar: 'rgba(233, 187, 69, 0.56)',
   black: '#000000',
   gray: 'gray',
   gray_1: '#9D9D9D',
   gray_2: '#848484',
   yellowMain: '#E9BB45',
   transparence: 'rgba(233, 187, 69, 0)',
+  border_1: 'rgba(234, 233, 233, 0.71)',
 };
 const SIZES = {
   small: 12,
