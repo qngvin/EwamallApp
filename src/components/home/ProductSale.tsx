@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unstable-nested-components */
 import {StyleSheet, Text, View, Image, VirtualizedList} from 'react-native';
 import React from 'react';
 import * as Progress from 'react-native-progress';
@@ -28,7 +29,7 @@ const ProductSale: React.FC<ProductSaleProps> = ({data}) => {
       </View>
       <View style={styles.progressBar}>
         <Progress.Bar
-          style={styles.textProgressBar}
+          // style={styles.textProgressBar}
           color="red"
           unfilledColor={COLORS.progressBar}
           borderWidth={0}
@@ -91,6 +92,7 @@ const styles = StyleSheet.create({
   },
   textProgressBar: {
     position: 'absolute',
+    fontSize: 12,
   },
 });
 
