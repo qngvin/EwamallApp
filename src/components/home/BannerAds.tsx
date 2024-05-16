@@ -2,6 +2,7 @@ import React from 'react';
 import {StyleSheet, Image, View, Dimensions} from 'react-native';
 import Carousel from 'react-native-snap-carousel';
 import {banner} from '../../data/Banner';
+import {SIZES} from '../../constant/theme';
 
 const {width: screenWidth} = Dimensions.get('window');
 
@@ -15,8 +16,8 @@ const BannerAds: React.FC = () => {
       <Carousel
         data={banner}
         renderItem={renderItem}
-        sliderWidth={screenWidth - 40}
-        itemWidth={screenWidth - 40}
+        sliderWidth={screenWidth * 0.91}
+        itemWidth={screenWidth * 0.91}
         autoplay={true}
         autoplayInterval={2500}
         loop={true}
@@ -30,7 +31,7 @@ export default BannerAds;
 const styles = StyleSheet.create({
   image: {
     width: '100%',
-    height: 170,
+    height: SIZES.height / 5,
     borderRadius: 25,
   },
 });

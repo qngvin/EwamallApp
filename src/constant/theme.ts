@@ -13,8 +13,11 @@ const COLORS = {
   gray_1: '#9D9D9D',
   gray_2: '#848484',
   yellowMain: '#E9BB45',
+  price: '#CDA000',
   transparence: 'rgba(233, 187, 69, 0)',
   border_1: 'rgba(234, 233, 233, 0.71)',
+  border_product: 'rgba(0, 0, 0, 0.07)',
+  background_list: 'rgba(61, 61, 61, 0.07)',
 };
 const SIZES = {
   small: 12,
