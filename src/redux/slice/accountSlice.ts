@@ -1,17 +1,6 @@
 import {createSlice, PayloadAction} from '@reduxjs/toolkit';
-
-interface AccountState {
-  currentUser: null | string;
-  isLogin: boolean;
-  notification: null | string;
-  role: string;
-  username: string;
-  loading: boolean;
-  error: null | Error;
-  success: boolean;
-}
-
-const initialState: AccountState = {
+import {InterfaceAccountState} from '../../constant/interface';
+const initialState: InterfaceAccountState = {
   currentUser: null,
   isLogin: false,
   notification: null,

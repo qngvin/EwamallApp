@@ -1,27 +1,31 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
+import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import React from 'react';
+import {useSelector} from 'react-redux';
 
 import BottomTabNavigation from './src/navigator/BottomTabNavigation';
+import LoginScreen from './src/screens/login/LoginScreen';
+import {InterfaceAccountState} from './src/constant/interface';
+
 const Stack = createNativeStackNavigator();
-function App() {
+
+const App: React.FC = () => {
+  const {isLogin} = useSelector(
+    (state: InterfaceAccountState) => state.accountReducer,
+  );
+
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="BottomNav"
-        screenOptions={{headerShown: false}}>
+        initialRouteName="Home"
+        screenOptions={{
+          headerShown: false,
+        }}>
         <Stack.Screen name="BottomNav" component={BottomTabNavigation} />
-        {/* Optionally, you can add other screens here */}
+        <Stack.Screen name="Login" component={LoginScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
-}
+};
 
 export default App;
