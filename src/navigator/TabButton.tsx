@@ -3,10 +3,11 @@ import React from 'react';
 import Feather from 'react-native-vector-icons/Feather';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {COLORS} from '../constant/theme';
+
 interface ButtonProps {
   name: string;
   accessibilityState: any;
-  onPress: (event: any) => void;
+  onPress: any;
 }
 const TabButton: React.FC<ButtonProps> = ({
   name,
@@ -14,6 +15,7 @@ const TabButton: React.FC<ButtonProps> = ({
   onPress,
 }) => {
   const isWallet = name.includes('wallet');
+
   return (
     <TouchableOpacity onPress={onPress} style={styles.container}>
       <View style={styles.button}>
@@ -47,11 +49,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     height: 75,
+    borderRadius: 50,
   },
   button: {
     width: 50,
     height: 50,
-    borderColor: 'red',
     justifyContent: 'center',
     alignItems: 'center',
   },

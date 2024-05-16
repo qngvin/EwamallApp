@@ -1,11 +1,11 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import Feather from 'react-native-vector-icons/Feather';
-import {COLORS, FONTS} from '../../constant/theme';
+import {COLORS, FONTS, SIZES} from '../../constant/theme';
 import Svg, {Defs, ClipPath, Path, Rect} from 'react-native-svg';
 import CountDown from 'react-native-countdown-component';
 import ProductSale from './ProductSale';
-import products from '../../data/Product';
+import {productsFormatted} from '../../data/Product';
 import HeightSpacer from '../reusables/HeightSpacer';
 const FlashSaleHome: React.FC = () => {
   return (
@@ -54,8 +54,8 @@ const FlashSaleHome: React.FC = () => {
           <Feather name="chevron-right" size={16} color={COLORS.gray_2} />
         </View>
       </View>
-      <HeightSpacer height={15} />
-      <ProductSale data={products} />
+      <HeightSpacer height={SIZES.height / 60} />
+      <ProductSale data={productsFormatted} />
     </View>
   );
 };
@@ -64,7 +64,7 @@ export default FlashSaleHome;
 
 const styles = StyleSheet.create({
   container: {
-    paddingHorizontal: 20,
+    paddingHorizontal: '5%',
     flexDirection: 'row',
     justifyContent: 'space-between',
   },

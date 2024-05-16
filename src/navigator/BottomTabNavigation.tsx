@@ -1,39 +1,44 @@
 import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-
+import {View} from 'react-native';
 import Home from '../screens/home/Home';
 import {StyleSheet} from 'react-native';
-// import {BlurView} from '@react-native-community/blur';
-
+import {BlurView} from '@react-native-community/blur';
 import TabButton from './TabButton';
 import Profile from '../screens/profile/Profile';
 import Cart from '../screens/cart/Cart';
 import Category from '../screens/categories/Category';
 import Voucher from '../screens/voucher/Voucher';
+import {useSelector} from 'react-redux';
+import {InterfaceAccountState} from '../constant/interface';
+import LoginScreen from '../screens/login/LoginScreen';
+
 const Tab = createBottomTabNavigator();
-const tabBarStyle = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
-    borderRadius: 100,
-    height: 75,
-    position: 'absolute',
+    // display: 'none',
+    borderRadius: 50,
     bottom: 30,
-    justifyContent: 'center',
-    alignItems: 'center',
+    backgroundColor: 'transparent',
     marginHorizontal: 20,
+    overflow: 'hidden',
+  },
+  backgroundOverlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: 'rgba(73, 67, 50, 0.89)',
+    borderRadius: 50,
   },
 });
-// function tabBarBackground() {
-//   return (
-//     <BlurView
-//       blurType="regular"
-//       blurAmount={55}
-//       style={{
-//         borderRadius: 100,
-//         backgroundColor: 'transparent',
-//       }}
-//     />
-//   );
-// }
+function tabBarBackground() {
+  return (
+    <BlurView
+      blurType="light"
+      blurAmount={2}
+      style={StyleSheet.absoluteFillObject}>
+      <View style={styles.backgroundOverlay} />
+    </BlurView>
+  );
+}
 const tabs = [
   {
     id: 1,
@@ -43,7 +48,7 @@ const tabs = [
     Component: Cart,
   },
   {
-    id: 1,
+    id: 2,
     title: 'categories',
     screen: 'Categories',
     icon: 'grid',
@@ -72,6 +77,10 @@ const tabs = [
   },
 ];
 const BottomTabNavigation: React.FC = () => {
+  const {isLogin} = useSelector(
+    (state: InterfaceAccountState) => state.accountReducer,
+  );
+
   return (
     <>
       <Tab.Navigator
@@ -79,16 +88,20 @@ const BottomTabNavigation: React.FC = () => {
         screenOptions={{
           tabBarShowLabel: false,
           headerShown: false,
-          tabBarStyle: tabBarStyle.container,
-
-          // tabBarIconStyle: tabBarStyle.icon,
-          // tabBarBackground: tabBarBackground,
+          tabBarStyle: styles.container,
+          tabBarBackground: tabBarBackground,
         }}>
         {tabs.map(item => (
           <Tab.Screen
             key={item.id}
             name={item.screen}
-            component={item.Component}
+            component={
+              item.screen === 'Home'
+                ? item.Component
+                : isLogin
+                ? item.Component
+                : LoginScreen
+            }
             options={{
               tabBarButton: props => (
                 <TabButton
