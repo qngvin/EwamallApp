@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Image, StyleSheet, FlatList, ScrollView} from 'react-native';
 import ReusableText from '../reusables/ReusableText';
-import {COLORS, FONTS} from '../../constant/theme';
+import {COLORS, FONTS, SIZES} from '../../constant/theme';
 import HeightSpacer from '../reusables/HeightSpacer';
 import categories from '../../data/Categories';
 
@@ -38,14 +38,14 @@ const CategoryHome: React.FC = () => {
 
   return (
     <View style={styles.container}>
-      <HeightSpacer height={15} />
+      <HeightSpacer height={SIZES.height / 70} />
       <ReusableText
         text="Danh mục sản phẩm"
         size={20}
         color={COLORS.black}
         font={FONTS.roboto_medium}
       />
-      <HeightSpacer height={15} />
+      <HeightSpacer height={SIZES.height / 70} />
       <View style={styles.column}>
         <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
           {chunkedCategories.map((chunk, index) => (
@@ -67,7 +67,7 @@ export default CategoryHome;
 
 const styles = StyleSheet.create({
   container: {
-    paddingHorizontal: 20,
+    paddingHorizontal: '5%',
   },
   column: {
     flexDirection: 'row',

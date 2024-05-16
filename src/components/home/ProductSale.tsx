@@ -27,16 +27,16 @@ const ProductSale: React.FC<ProductSaleProps> = ({data}) => {
       <View style={styles.price}>
         <Text style={styles.priceText}>{item.price}</Text>
       </View>
-      <View style={styles.progressBar}>
+      <View style={styles.containerProgressBar}>
         <Progress.Bar
-          // style={styles.textProgressBar}
           color="red"
           unfilledColor={COLORS.progressBar}
           borderWidth={0}
           progress={0.3}
-          width={SIZES.width / 4.4}
+          width={SIZES.width / 3.5}
+          height={SIZES.height / 85}
         />
-        <Text>ĐANG BÁN CHẠY</Text>
+        <Text style={styles.textProgressBar}>ĐANG BÁN CHẠY</Text>
       </View>
     </View>
   );
@@ -71,8 +71,8 @@ const styles = StyleSheet.create({
     paddingBottom: 10,
   },
   image: {
-    width: SIZES.width / 3.5,
-    height: 110,
+    width: SIZES.width / 3,
+    height: SIZES.height / 8,
   },
   price: {
     flexDirection: 'row',
@@ -87,12 +87,19 @@ const styles = StyleSheet.create({
     fontFamily: FONTS.roboto_bold,
     color: COLORS.red_price,
   },
+  containerProgressBar: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   progressBar: {
     position: 'relative',
   },
   textProgressBar: {
     position: 'absolute',
-    fontSize: 12,
+    color: COLORS.white,
+    fontSize: 10,
+    fontWeight: '700',
   },
 });
 
