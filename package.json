@@ -20,6 +20,7 @@
     "patch-package": "^8.0.0",
     "react": "18.2.0",
     "react-clip-path": "^0.0.6",
+    "react-hook-form": "^7.51.4",
     "react-native": "0.73.4",
     "react-native-bootstrap-icons": "^1.5.0",
     "react-native-countdown-component": "^2.7.1",
