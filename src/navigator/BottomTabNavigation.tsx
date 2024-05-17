@@ -98,7 +98,8 @@ const BottomTabNavigation: React.FC = () => {
             component={
               item.screen === 'Home'
                 ? item.Component
-                : isLogin
+                // Sửa lại isLogin nếu quên
+                : !isLogin
                 ? item.Component
                 : LoginScreen
             }
