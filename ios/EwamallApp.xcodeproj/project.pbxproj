@@ -10,7 +10,6 @@
 		00E356F31AD99517003FC87E /* EwamallAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EwamallAppTests.m */; };
 		067495F492AC40CD84C4F930 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84839DE4DD3C44CBA6CD43E7 /* Inter-SemiBold.ttf */; };
 		067CABB2C45E4A178DE36533 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05AE2AC6ED2E437B9D43A82D /* Poppins-Light.ttf */; };
-		0C5E34ADA6225552F654BC6C /* libPods-EwamallApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FF8B131BCCE53EB09C803E /* libPods-EwamallApp.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -24,10 +23,11 @@
 		A160CACA4FAF41ACB408150C /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA756239A0F14B86B5553765 /* Inter-Bold.ttf */; };
 		A4EFF42185E14D5F8C7E0253 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9B5EF3F450B43BD825EED6B /* Roboto-Bold.ttf */; };
 		A82E79918A2942288A5CB017 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 26D966FC7E5941468D0C1011 /* Poppins-SemiBold.ttf */; };
+		A889DD40848289B1849AC9B2 /* libPods-EwamallApp-EwamallAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B433FC6917C91EF136DD8D /* libPods-EwamallApp-EwamallAppTests.a */; };
 		AF4BD34074F94E4C88191C58 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16B89BA0BC6F403AB3B4FAB2 /* Poppins-Bold.ttf */; };
 		BA0A423F1AB84BCFB4B57681 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 216837AB520C46F0B853B84A /* Inter-Medium.ttf */; };
 		C1D8AC0AA4BD4138A3B29D2C /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A7935CB07864EFD9C0DD00B /* Poppins-Medium.ttf */; };
-		C5399849C1BB648919399369 /* libPods-EwamallApp-EwamallAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6452130C5427F750DC2E08FA /* libPods-EwamallApp-EwamallAppTests.a */; };
+		D19D54587DC320B7EF8FBF3A /* libPods-EwamallApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBBF19A95731667683CF555 /* libPods-EwamallApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,23 +54,20 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EwamallApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EwamallApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EwamallApp/main.m; sourceTree = "<group>"; };
-		13FF8B131BCCE53EB09C803E /* libPods-EwamallApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EwamallApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1663084D67144FBF997CD926 /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
 		16B89BA0BC6F403AB3B4FAB2 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		1A45DF41C09F4F81948C3AC7 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = ../assets/fonts/Entypo.ttf; sourceTree = "<group>"; };
+		1FBBF19A95731667683CF555 /* libPods-EwamallApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EwamallApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		216837AB520C46F0B853B84A /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
+		25B433FC6917C91EF136DD8D /* libPods-EwamallApp-EwamallAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EwamallApp-EwamallAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D966FC7E5941468D0C1011 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
-		2D6E602EA6B80029CB04EFE5 /* Pods-EwamallApp-EwamallAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EwamallApp-EwamallAppTests.debug.xcconfig"; path = "Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2F53AD54DCEC4D90BCC0164D /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../assets/fonts/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
-		34F72E95AFA225252CC248F9 /* Pods-EwamallApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EwamallApp.debug.xcconfig"; path = "Target Support Files/Pods-EwamallApp/Pods-EwamallApp.debug.xcconfig"; sourceTree = "<group>"; };
 		3F4C197E1FBA488F973E4FE7 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = ../assets/fonts/EvilIcons.ttf; sourceTree = "<group>"; };
+		40BB9B19C1F1E5B6E05FBBF7 /* Pods-EwamallApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EwamallApp.release.xcconfig"; path = "Target Support Files/Pods-EwamallApp/Pods-EwamallApp.release.xcconfig"; sourceTree = "<group>"; };
 		4E99D153DD91464DB7DC9217 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = ../assets/fonts/SimpleLineIcons.ttf; sourceTree = "<group>"; };
-		514F04ABA6E75FFF1272D621 /* Pods-EwamallApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EwamallApp.release.xcconfig"; path = "Target Support Files/Pods-EwamallApp/Pods-EwamallApp.release.xcconfig"; sourceTree = "<group>"; };
-		556A4816472F378D550B44B2 /* Pods-EwamallApp-EwamallAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EwamallApp-EwamallAppTests.release.xcconfig"; path = "Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		58E52B3AAA22469A8EBA4774 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		5C34D903F57B4C29884B7508 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		62E131887B8B4FC0BB2662BD /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = ../assets/fonts/Feather.ttf; sourceTree = "<group>"; };
-		6452130C5427F750DC2E08FA /* libPods-EwamallApp-EwamallAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EwamallApp-EwamallAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		675A567E6F81425FA0163FCD /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = ../assets/fonts/MaterialIcons.ttf; sourceTree = "<group>"; };
 		6EB881688E614FF291C32A8F /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = ../assets/fonts/FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
 		7A7935CB07864EFD9C0DD00B /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
@@ -78,7 +75,9 @@
 		80789B6B1D4846948C82D77B /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = ../assets/fonts/FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = EwamallApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84839DE4DD3C44CBA6CD43E7 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		887E6A4C60236483CD8DFEBA /* Pods-EwamallApp-EwamallAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EwamallApp-EwamallAppTests.debug.xcconfig"; path = "Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F0DE6690621475FA1D7575A /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = ../assets/fonts/Ionicons.ttf; sourceTree = "<group>"; };
+		97B8DB2F07611CCE5A226D2B /* Pods-EwamallApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EwamallApp.debug.xcconfig"; path = "Target Support Files/Pods-EwamallApp/Pods-EwamallApp.debug.xcconfig"; sourceTree = "<group>"; };
 		ADBB912B13CF4083AF3DCF18 /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome6_Brands.ttf; path = ../assets/fonts/FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
 		B0FD6E85598D44DBBDFBE44C /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = ../assets/fonts/MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
 		BFC959DBE1814B32A5EB9D36 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = ../assets/fonts/Fontisto.ttf; sourceTree = "<group>"; };
@@ -86,6 +85,7 @@
 		C9B5EF3F450B43BD825EED6B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		CE71EAD502314B7A9408A8C2 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = ../assets/fonts/Foundation.ttf; sourceTree = "<group>"; };
 		CFEF2B8B875B4B6F99A38E4F /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		D3B318CDB5E219207511E401 /* Pods-EwamallApp-EwamallAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EwamallApp-EwamallAppTests.release.xcconfig"; path = "Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		DCF64749A25341B992DDD5BF /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = ../assets/fonts/FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
 		E90BE42A29E1483FA11AFCB7 /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome6_Regular.ttf; path = ../assets/fonts/FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5399849C1BB648919399369 /* libPods-EwamallApp-EwamallAppTests.a in Frameworks */,
+				A889DD40848289B1849AC9B2 /* libPods-EwamallApp-EwamallAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C5E34ADA6225552F654BC6C /* libPods-EwamallApp.a in Frameworks */,
+				D19D54587DC320B7EF8FBF3A /* libPods-EwamallApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,8 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				13FF8B131BCCE53EB09C803E /* libPods-EwamallApp.a */,
-				6452130C5427F750DC2E08FA /* libPods-EwamallApp-EwamallAppTests.a */,
+				1FBBF19A95731667683CF555 /* libPods-EwamallApp.a */,
+				25B433FC6917C91EF136DD8D /* libPods-EwamallApp-EwamallAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -228,10 +228,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				34F72E95AFA225252CC248F9 /* Pods-EwamallApp.debug.xcconfig */,
-				514F04ABA6E75FFF1272D621 /* Pods-EwamallApp.release.xcconfig */,
-				2D6E602EA6B80029CB04EFE5 /* Pods-EwamallApp-EwamallAppTests.debug.xcconfig */,
-				556A4816472F378D550B44B2 /* Pods-EwamallApp-EwamallAppTests.release.xcconfig */,
+				97B8DB2F07611CCE5A226D2B /* Pods-EwamallApp.debug.xcconfig */,
+				40BB9B19C1F1E5B6E05FBBF7 /* Pods-EwamallApp.release.xcconfig */,
+				887E6A4C60236483CD8DFEBA /* Pods-EwamallApp-EwamallAppTests.debug.xcconfig */,
+				D3B318CDB5E219207511E401 /* Pods-EwamallApp-EwamallAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -243,12 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EwamallAppTests" */;
 			buildPhases = (
-				8402E0DF259CE04ED52B8F7B /* [CP] Check Pods Manifest.lock */,
+				D7F3B1012AE6937F66EB678F /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				92DE0F91AA73B07EF9EC69C7 /* [CP] Embed Pods Frameworks */,
-				8A32F18513508B19BD4E43D9 /* [CP] Copy Pods Resources */,
+				417B8BEFE72FF8B758956FD1 /* [CP] Embed Pods Frameworks */,
+				C1AD606F3D07FB8BF741F426 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,13 +264,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EwamallApp" */;
 			buildPhases = (
-				D1C1DB6F224903B739C50C58 /* [CP] Check Pods Manifest.lock */,
+				1BF7BCB14CDAA72E51D099BE /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				CEC612A361530E25CF6F611C /* [CP] Embed Pods Frameworks */,
-				B0FEB5EF6476ADAE51ABE162 /* [CP] Copy Pods Resources */,
+				CDECEA00ADD95E2ABFCB7D38 /* [CP] Embed Pods Frameworks */,
+				373E5F4DE91EA1CC0978790F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -367,7 +367,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		8402E0DF259CE04ED52B8F7B /* [CP] Check Pods Manifest.lock */ = {
+		1BF7BCB14CDAA72E51D099BE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,48 +382,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EwamallApp-EwamallAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EwamallApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8A32F18513508B19BD4E43D9 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		92DE0F91AA73B07EF9EC69C7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B0FEB5EF6476ADAE51ABE162 /* [CP] Copy Pods Resources */ = {
+		373E5F4DE91EA1CC0978790F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -440,7 +406,41 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EwamallApp/Pods-EwamallApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CEC612A361530E25CF6F611C /* [CP] Embed Pods Frameworks */ = {
+		417B8BEFE72FF8B758956FD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1AD606F3D07FB8BF741F426 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EwamallApp-EwamallAppTests/Pods-EwamallApp-EwamallAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDECEA00ADD95E2ABFCB7D38 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -457,7 +457,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EwamallApp/Pods-EwamallApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D1C1DB6F224903B739C50C58 /* [CP] Check Pods Manifest.lock */ = {
+		D7F3B1012AE6937F66EB678F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -472,7 +472,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EwamallApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EwamallApp-EwamallAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -512,7 +512,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D6E602EA6B80029CB04EFE5 /* Pods-EwamallApp-EwamallAppTests.debug.xcconfig */;
+			baseConfigurationReference = 887E6A4C60236483CD8DFEBA /* Pods-EwamallApp-EwamallAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -539,7 +539,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 556A4816472F378D550B44B2 /* Pods-EwamallApp-EwamallAppTests.release.xcconfig */;
+			baseConfigurationReference = D3B318CDB5E219207511E401 /* Pods-EwamallApp-EwamallAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -563,7 +563,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34F72E95AFA225252CC248F9 /* Pods-EwamallApp.debug.xcconfig */;
+			baseConfigurationReference = 97B8DB2F07611CCE5A226D2B /* Pods-EwamallApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -590,7 +590,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 514F04ABA6E75FFF1272D621 /* Pods-EwamallApp.release.xcconfig */;
+			baseConfigurationReference = 40BB9B19C1F1E5B6E05FBBF7 /* Pods-EwamallApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

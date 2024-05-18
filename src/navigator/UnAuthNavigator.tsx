@@ -3,6 +3,7 @@ import React from 'react';
 import LoginScreen from '../screens/login/LoginScreen';
 import Home from '../screens/home/Home';
 import RegisterScreen from '../screens/regisger/RegisterScreen';
+import BottomTabNavigation from './BottomTabNavigation';
 
 const Stack = createNativeStackNavigator();
 const UnAuthNavigator: React.FC = () => {
